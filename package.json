@@ -1,0 +1,25 @@
+{
+  "name": "dark-mode-puppeteer",
+  "version": "1.0.0",
+  "description": "Screenshot apps in dark mode and light mode",
+  "main": "index.js",
+  "dependencies": {
+    "command-line-args": "^5.1.1",
+    "puppeteer": "^1.19.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node dark-mode-screenshot.js",
+    "debug": "env DEBUG=\"puppeteer:*\" env DEBUG_COLORS=true node index.js 2>&1 | grep -v '\"Network'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomayac/dark-mode-puppeteer.git"
+  },
+  "author": "",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/tomayac/dark-mode-puppeteer/issues"
+  },
+  "homepage": "https://github.com/tomayac/dark-mode-puppeteer#readme"
+}
