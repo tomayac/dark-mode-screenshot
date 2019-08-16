@@ -1,6 +1,6 @@
 {
   "name": "dark-mode-screenshot",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "This Puppeteer script takes a screenshot of a webpage in Light and Dark Mode.",
   "keywords": [
     "dark mode",
@@ -16,7 +16,7 @@
   "devDependencies": {},
   "scripts": {
     "start": "node dark-mode-screenshot.js",
-    "debug": "env DEBUG=\"puppeteer:*\" env DEBUG_COLORS=true node index.js 2>&1 | grep -v '\"Network'"
+    "debug": "env DEBUG=\"puppeteer:*\" env DEBUG_COLORS=true node dark-mode-screenshot.js 2>&1 | grep -v '\"Network'"
   },
   "repository": {
     "type": "git",

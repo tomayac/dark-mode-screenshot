@@ -36,13 +36,7 @@ on how to do that. The script will programmatically force Dark Mode off for taki
 
 ## 👩‍💻 Usage
 
-Command line (from npm):
-
-```bash
-$ npx dark-mode-screenshot --url https://www.example.com --output screenshot --fullPage true
-```
-
-Command line (from local installation):
+From the command line:
 
 ```bash
 $ node dark-mode-screenshot.js --url https://www.example.com --output screenshot --fullPage true
