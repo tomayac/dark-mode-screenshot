@@ -1,5 +1,5 @@
 {
-  "name": "dark-mode-puppeteer",
+  "name": "dark-mode-screenshot",
   "version": "1.0.0",
   "description": "Screenshot apps in dark mode and light mode",
   "main": "index.js",
@@ -14,12 +14,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tomayac/dark-mode-puppeteer.git"
+    "url": "git+https://github.com/tomayac/dark-mode-screenshot.git"
   },
   "author": "",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/tomayac/dark-mode-puppeteer/issues"
+    "url": "https://github.com/tomayac/dark-mode-screenshot/issues"
   },
-  "homepage": "https://github.com/tomayac/dark-mode-puppeteer#readme"
+  "homepage": "https://github.com/tomayac/dark-mode-screenshot#readme"
 }
