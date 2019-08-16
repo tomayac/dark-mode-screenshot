@@ -39,7 +39,7 @@ on how to do that. The script will programmatically force Dark Mode off for taki
 From the command line:
 
 ```bash
-$ node dark-mode-screenshot.js --url https://www.example.com --output screenshot --fullPage true
+$ node dark-mode-screenshot.js --url https://www.example.com --output screenshot --fullPage
 ```
 
 | Parameter (long) | Parameter (short) | Description |
