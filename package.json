@@ -1,7 +1,13 @@
 {
   "name": "dark-mode-screenshot",
   "version": "1.0.0",
-  "description": "Screenshot apps in dark mode and light mode",
+  "description": "This Puppeteer script takes a screenshot of a webpage in Light and Dark Mode.",
+  "keywords": [
+    "dark mode",
+    "dark theme",
+    "puppeteer",
+    "screenshot"
+  ],
   "main": "index.js",
   "dependencies": {
     "command-line-args": "^5.1.1",
