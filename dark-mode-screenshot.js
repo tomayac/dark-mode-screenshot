@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const puppeteer = require('puppeteer');
 const commandLineArgs = require('command-line-args');
 
