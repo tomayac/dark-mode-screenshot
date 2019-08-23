@@ -36,10 +36,16 @@ on how to do that. The script will programmatically force Dark Mode off for taki
 
 ## 👩‍💻 Usage
 
-From the command line:
+Locally from the command line:
 
 ```bash
 $ node dark-mode-screenshot.js --url https://googlechromelabs.github.io/dark-mode-toggle/demo/index.html --output screenshot --fullPage
+```
+
+Without installing remotely from npm:
+
+```bash
+$ npx dark-mode-screenshot --url https://googlechromelabs.github.io/dark-mode-toggle/demo/index.html --output screenshot --fullPage
 ```
 
 | Parameter (long) | Parameter (short) | Description |
