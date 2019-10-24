@@ -39,13 +39,13 @@ on how to do that. The script will programmatically force Dark Mode off for taki
 Locally from the command line:
 
 ```bash
-$ node dark-mode-screenshot.js --url https://googlechromelabs.github.io/dark-mode-toggle/demo/index.html --output screenshot --fullPage
+$ node dark-mode-screenshot.js --url https://googlechromelabs.github.io/dark-mode-toggle/demo/ --output screenshot --fullPage --pause 750
 ```
 
 Without installing remotely from npm:
 
 ```bash
-$ npx dark-mode-screenshot --url https://googlechromelabs.github.io/dark-mode-toggle/demo/index.html --output screenshot --fullPage
+$ npx dark-mode-screenshot --url https://googlechromelabs.github.io/dark-mode-toggle/demo/ --output screenshot --fullPage --pause 750
 ```
 
 | Parameter (long) | Parameter (short) | Description |
@@ -53,6 +53,7 @@ $ npx dark-mode-screenshot --url https://googlechromelabs.github.io/dark-mode-to
 | `--url` | `-u` | The URL of the webpage, defaults to `https://googlechromelabs.github.io/dark-mode-toggle/ demo/index.html`. |
 | `--output` | `-o` | The file prefix of the screenshot (there will be a light and a dark file), defaults to `screenshot`. |
 | `--fullPage` | `-f` | Whether or not to take a full page screenshot, defaults to `true`. |
+| `--pause` | `-p` | Time in milliseconds to pause before taking each screenshot, defaults to `0`. |
 
 ## 📄 License
 
