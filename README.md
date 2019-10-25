@@ -11,10 +11,10 @@ takes a screenshot of a webpage in Light and Dark Mode.
   <tbody>
     <tr>
       <td>
-        <img src="https://github.com/tomayac/dark-mode-screenshot/raw/master/screenshot-dark.png">
+        <img src="https://github.com/tomayac/dark-mode-screenshot/blob/cabecd90eee5299e10089311cba61f70694f00d3/screenshot-dark.png?raw=true">
       </td>
       <td>
-        <img src="https://github.com/tomayac/dark-mode-screenshot/raw/master/screenshot-light.png">
+        <img src="https://github.com/tomayac/dark-mode-screenshot/blob/cabecd90eee5299e10089311cba61f70694f00d3/screenshot-light.png?raw=true">
       </td>
     </tr>
     <tr>
@@ -54,6 +54,13 @@ $ npx dark-mode-screenshot --url https://googlechromelabs.github.io/dark-mode-to
 | `--output` | `-o` | The file prefix of the screenshot (there will be a light and a dark file), defaults to `screenshot`. |
 | `--fullPage` | `-f` | Whether or not to take a full page screenshot, defaults to `true`. |
 | `--pause` | `-p` | Time in milliseconds to pause before taking each screenshot, defaults to `0`. |
+
+
+## Acknowledgements
+
+Thanks to @mathiasbynens for implementing
+[`page.emulateMediaFeatures(features)`](https://github.com/GoogleChrome/puppeteer/blob/v2.0.0/docs/api.md#pageemulatemediatypetype)
+in Puppeteer and for making this script a lot lighter.
 
 ## 📄 License
 
