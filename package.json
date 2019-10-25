@@ -1,6 +1,6 @@
 {
   "name": "dark-mode-screenshot",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "This Puppeteer script takes a screenshot of a webpage in Light and Dark Mode.",
   "keywords": [
     "dark mode",
