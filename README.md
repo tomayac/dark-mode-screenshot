@@ -28,12 +28,6 @@ takes a screenshot of a webpage in Light and Dark Mode.
   </tbody>
 </table>
 
-## ⚠️ Prerequisite
-
-For this script to work, you need to activate Dark Mode in your operating system.
-Please see the [instructions for various operating systems](https://goo.gle/activate-dark-mode)
-on how to do that. The script will programmatically force Dark Mode off for taking the light screenshot.
-
 ## 👩‍💻 Usage
 
 Locally from the command line:
