@@ -58,7 +58,7 @@ $ npx dark-mode-screenshot --url https://googlechromelabs.github.io/dark-mode-to
 
 ## Acknowledgements
 
-Thanks to @mathiasbynens for implementing
+Thanks to [@mathiasbynens](https://github.com/mathiasbynens) for implementing
 [`page.emulateMediaFeatures(features)`](https://github.com/GoogleChrome/puppeteer/blob/v2.0.0/docs/api.md#pageemulatemediatypetype)
 in Puppeteer and for making this script a lot lighter.
 
