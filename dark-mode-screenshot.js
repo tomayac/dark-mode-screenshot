@@ -24,9 +24,9 @@ const commandLineArgs = require('command-line-args');
   };
 
   const browser = await puppeteer.launch({
-    // TODO: Once https://github.com/GoogleChrome/puppeteer/issues/4752 is
-    // resolved, make it run headless.
-    headless: false,
+    // The macOS firewall might complain, see
+    // https://github.com/GoogleChrome/puppeteer/issues/4752.
+    headless: true,
   });
   const page = await browser.newPage();
   await page.goto(url);
