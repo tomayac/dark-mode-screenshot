@@ -9,7 +9,7 @@ const commandLineArgs = require('command-line-args');
     {name: 'url', alias: 'u', type: String, defaultValue:
         'https://googlechromelabs.github.io/dark-mode-toggle/demo/'},
     {name: 'output', alias: 'o', type: String, defaultValue: 'screenshot'},
-    {name: 'fullPage', alias: 'f', type: Boolean, defaultValue: true},
+    {name: 'fullPage', alias: 'f', type: Boolean},
     {name: 'pause', alias: 'p', type: Number, defaultValue: 0},
   ];
   const arguments = commandLineArgs(optionDefinitions);
