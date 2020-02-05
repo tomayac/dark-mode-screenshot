@@ -1,5 +1,7 @@
 # Dark Mode Screenshot 📷🌒
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/tomayac/dark-mode-screenshot.svg)](https://greenkeeper.io/)
+
 This [Puppeteer](https://github.com/GoogleChrome/puppeteer/) script
 takes a screenshot of a webpage in Light and Dark Mode.
 
