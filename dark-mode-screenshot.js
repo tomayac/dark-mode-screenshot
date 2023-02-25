@@ -26,7 +26,7 @@ const commandLineArgs = require('command-line-args');
   const browser = await puppeteer.launch({
     // The macOS firewall might complain, see
     // https://github.com/GoogleChrome/puppeteer/issues/4752.
-    headless: true,
+    headless: 'new',
   });
   const page = await browser.newPage();
   await page.goto(url);
