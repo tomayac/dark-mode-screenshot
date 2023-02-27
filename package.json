@@ -11,8 +11,8 @@
   "main": "dark-mode-screenshot.js",
   "bin": "dark-mode-screenshot.js",
   "dependencies": {
-    "command-line-args": "^5.1.1",
-    "puppeteer": "^2.0.0"
+    "command-line-args": "^5.2.1",
+    "puppeteer": "^19.7.2"
   },
   "devDependencies": {},
   "scripts": {

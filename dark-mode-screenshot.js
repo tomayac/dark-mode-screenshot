@@ -19,7 +19,8 @@ const commandLineArgs = require('command-line-args');
   // web pages that use a CSS transition.
   const wait = async () => {
     if (pause) {
-      await page.waitFor(pause);
+      console.log(`⏳ Waiting ${pause}ms…`);
+      await new Promise(resolve => setTimeout(resolve, pause));
     }
   };
 
